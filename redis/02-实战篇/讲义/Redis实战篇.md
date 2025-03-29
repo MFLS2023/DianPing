@@ -464,7 +464,7 @@ public class LoginInterceptor implements HandlerInterceptor {
 
 这在实际开发中对企业讲,对产品口碑,用户评价都是致命的;所以企业非常重视缓存技术;
 
-**缓存(**Cache),就是数据交换的**缓冲区**,俗称的缓存就是**缓冲区内的数据**,一般从数据库中获取,存储于本地代码(例如:
+**缓存(**Cache),就是数据交换的**缓冲区**,俗称的缓存就是**缓冲区内的数据**,一般从数据库中获取,存储于本地代码(例如:                 
 
 ```java
 例1:Static final ConcurrentHashMap<K,V> map = new ConcurrentHashMap<>(); 本地用于高并发
